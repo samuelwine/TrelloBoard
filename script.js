@@ -6,7 +6,14 @@ function getItem() {
     var nameField = document.getElementById('todow').value;
     var resultContainer = document.createElement('li');
     var taskList = document.querySelector(".todolist");
-    taskList.appendChild(resultContainer);
+
+
+    // textContent is how the line is actually being added
+    resultContainer.textContent = nameField;
+
+    document.getElementById('todow').value = "";
+}
+
  
         // textContent is how the line is actually being added
         resultContainer.textContent =  nameField;
