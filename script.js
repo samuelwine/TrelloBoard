@@ -10,8 +10,12 @@ function getItem() {
 
     // textContent is how the line is actually being added
     resultContainer.textContent = nameField;
-
+// the next 3 lines are for a button to appear 
     document.getElementById('todow').value = "";
+    var doing1 = document.createElement('input');
+    doing1.setAttribute('type', 'button');
+    // the line below could have been done without a var but created a var to be able to be used at the next stage
+    var submited1 = resultContainer.appendChild(doing1); 
 }
 
  
