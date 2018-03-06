@@ -1,10 +1,17 @@
-body {
-    background: white;
-    font-family: sans-serif;
 
+script[type="text/plain"] {
+    display: block;
 }
 
-head {
-    text-align: center;
-    color: red;
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+
 }
