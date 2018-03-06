@@ -11,12 +11,12 @@ function getItem() {
     // textContent is how the line is actually being added
     resultContainer.textContent = nameField;
 
-    document.getElementById('todow').value = "";
+   { document.getElementById('todow').value = "";
 }
 
  
         // textContent is how the line is actually being added
-        resultContainer.textContent =  nameField;
+       { resultContainer.textContent =  nameField;
     }
 
 // use an eventlistener for the event
