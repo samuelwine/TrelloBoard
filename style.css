@@ -19,6 +19,7 @@ td {
 body {
     color: red;
     background-color: blue;
+    padding: 5px;
 }
 
 body> .rows {
