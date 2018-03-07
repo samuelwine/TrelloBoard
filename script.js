@@ -17,9 +17,15 @@ function getItem() {
     var doing1 = document.createElement('button');
     var doingBtnText = document.createTextNode("Doing");
     doing1.appendChild(doingBtnText);
+    resultContainer.appendChild(doing1);
+    doing1.addEventListener("click", moveItem); 
+}
 
-    // the line below could have been done without a var but created a var to be able to be used at the next stage
-   resultContainer.appendChild(doing1); 
+function moveItem() {
+    var currentLi = this.parentNode;
+    var doingList = document.querySelector(".doinglist");
+    doingList.appendChild(currentLi);
+    this.textContent = "Done";
 }
 
 // use an eventlistener for the event
