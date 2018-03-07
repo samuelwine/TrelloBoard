@@ -4,6 +4,7 @@
 // the function is how we get the button to adda new line
 function getItem() {
     var nameField = document.getElementById('todow').value;
+
     var resultContainer = document.createElement('li');
     var taskList = document.querySelector(".todolist");
     taskList.appendChild(resultContainer);
