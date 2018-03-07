@@ -15,3 +15,8 @@ td {
     border: 1px solid black;
 
 }
+
+body {
+    color: red;
+    background-color: blue;
+}
