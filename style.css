@@ -19,5 +19,10 @@ td {
 body {
     color: red;
     background-color: blue;
-    padding: 100px;
+}
+
+body> .rows {
+    background: white;
+    color: red;
+    border: 3px solid black;
 }
